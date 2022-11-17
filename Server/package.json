@@ -1,0 +1,38 @@
+{
+  "name": "pmmnm",
+  "version": "1.0.0",
+  "description": "This is a website project to introduce beer",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "beer"
+  ],
+  "author": "QuocViet, DuongTien",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "express-jwt": "^7.7.7",
+    "handlebars": "^4.7.7",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.20",
+    "pug": "^3.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrduongtien/ReviewBeer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrduongtien/ReviewBeer/issues"
+  },
+  "homepage": "https://github.com/mrduongtien/ReviewBeer#readme"
+}
